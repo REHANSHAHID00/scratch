@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+/* shapes and divs */
+.d1{
+    background-color: blueviolet;
+    display: flex;
+    padding-left: 30px;
+}
+.d2{
+    display: flex;
+}
+.d3{
+    position: absolute;
+    right: 20px;
+}
+/* lists */
+.ol1{
+    display: flex;
+    margin-top: 25px;
+}
+.l{
+    text-decoration: underline white;
+    list-style-type: none;
+    padding-left: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* text */
+.h1{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* form */
+
+/* button */
+.btn{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+}
+.btn1{
+    
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.btn2{
+    
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.d4{
+    height: 100vh;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    right: 0px;
+}
+.d5{
+    height: 50px;
+    width: 70px;
+    background-color: orange;
+}
+.d6{
+    height: 40px;
+    width: 60px;
+    background-color: orange;
+    position: absolute;
+    left: 30px;
+}
+.d7{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+.btn3{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(133, 133, 133));
+    position: absolute;
+    top: 400px;
+}
+.la{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.in{
+    margin-left: 20px;
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.in:focus{
+    border: none;
+    
+}
+.d8{
+    margin-left: 20px;
+}
